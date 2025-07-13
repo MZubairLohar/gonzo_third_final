@@ -35,10 +35,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-/public/C1.mp4
-/public/C2.mp4
-/public/C3.mp4
-/public/C4.mp4
-/public/C5.mp4
-/public/C6.mp4
-/public/C7.mp4

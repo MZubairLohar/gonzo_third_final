@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThirdwebProvider } from "thirdweb/react";
 import { defineChain } from "thirdweb";
 import { client } from "./client";
+import { ethereum } from "thirdweb/chains";
 
 
   const ganacheChain = defineChain({
@@ -39,7 +40,10 @@ export default function RootLayout({
          <link rel="icon" href="/favicon.png" />
           <ThirdwebProvider 
             client={client}
-            supportedChains={ganacheChain} >
+            activeChain={ethereum}
+            // supportedChains={ganacheChain} 
+            >
+
           {children}
         </ThirdwebProvider>
       </body>

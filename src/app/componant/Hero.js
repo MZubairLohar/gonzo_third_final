@@ -18,7 +18,7 @@ export default function Hero() {
             
             <p className=" text-[#a62122] font-medium text-[6px] lg:text-xl lg:mt-6 ">
               Hodl it to Get Rich. Introducing Treasure of <a className='text-white font-bold'>Gonzo</a>, the most
-              meme-worthy memecoin in the galaxy. It's time for <a className='text-white font-bold'>Gonzo</a> to show the
+              meme-worthy memecoin in the galaxy. Its time for <a className='text-white font-bold'>Gonzo</a> to show the
               world who is the greatest meme coin that ever existed!
             </p>
 

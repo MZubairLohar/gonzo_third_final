@@ -6,7 +6,6 @@ import { defineChain } from "thirdweb";
 import { client } from "./client";
 import { ethereum } from "thirdweb/chains";
 
-
   const ganacheChain = defineChain({
     id: 1337,
     rpc: "http://127.0.0.1:7545",
@@ -39,9 +38,12 @@ export default function RootLayout({
       <body className={inter.className}>
          <link rel="icon" href="/favicon.png" />
           <ThirdwebProvider 
-            client={client}
-            activeChain={ethereum}
+            // activeChain ={ethereum as any}
+            // client={client as any}
             // supportedChains={ganacheChain} 
+            client={client as any}
+            activeChain={ethereum as any}
+            supportedChains={[ganacheChain] as any}
             >
 
           {children}

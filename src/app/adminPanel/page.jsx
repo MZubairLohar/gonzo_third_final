@@ -5,6 +5,7 @@ import { client } from '../client';
 import { PresaleAddress, PresaleABI } from '../lib/lib'; // Adjust the import path as necessary
 import {  ConnectButton, useActiveAccount, useSendTransaction, darkTheme, useReadContract} from "thirdweb/react";
 import { defineChain, getContract, prepareContractCall, readContract } from 'thirdweb';
+import { ethereum } from 'thirdweb/chains';
 
 
 
@@ -75,7 +76,8 @@ export default function RunFunctions() {
     address: PresaleAddress,
     contractAbi: PresaleABI,
     client,
-    chain: ganacheChain,
+    chain: ethereum,
+    // chain: ganacheChain,
   });
 
   async function fetchPhaseData() {
@@ -275,7 +277,8 @@ export default function RunFunctions() {
           address: PresaleAddress,
           contractAbi: PresaleABI,
           client: client,
-          chain: ganacheChain,
+          chain: ethereum,
+          // chain: ganacheChain,
         });
 
         const transaction = prepareContractCall({
@@ -321,7 +324,8 @@ export default function RunFunctions() {
           address: PresaleAddress,
           contractAbi: PresaleABI,
           client: client,
-          chain: ganacheChain,
+          chain: ethereum,
+          // chain: ganacheChain,
         });
 
           const data = await readContract({
@@ -460,7 +464,8 @@ export default function RunFunctions() {
         <div className="relative z-10 space-y-4 flex flex-col items-center w-full">
           <ConnectButton
             client={client}
-            chain={ganacheChain}
+            // chain={ganacheChain}
+            chain={ethereum}
             account={account}
             showBalance={true}
             showWalletSwitch={true}

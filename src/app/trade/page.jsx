@@ -9,6 +9,7 @@ import { client } from '../client';
 import { defineChain, getContract, prepareContractCall, readContract } from 'thirdweb';
 import { PresaleAddress,PresaleABI } from '../lib/lib';
 import { ethers } from 'ethers';
+import { ethereum } from 'thirdweb/chains';
 // import { useRouter } from 'next/router';
 
 
@@ -89,7 +90,8 @@ import { ethers } from 'ethers';
     address: PresaleAddress,
     contractAbi: PresaleABI,
     client,
-    chain: ganacheChain,
+    chain: ethereum,
+    // chain: ganacheChain,
   });
 
   async function fetchPhaseData() {

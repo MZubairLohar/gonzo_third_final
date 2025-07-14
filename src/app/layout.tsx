@@ -91,9 +91,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <link rel="icon" href="/favicon.png" />
         <ThirdwebProvider
-          client={client}
-          initialChain={ethereum}
-          supportedChains={[ganacheChain]}
+          // client={client}
+          // initialChain={ethereum}
+          // supportedChains={[ganacheChain]}
         >
           {children}
         </ThirdwebProvider>

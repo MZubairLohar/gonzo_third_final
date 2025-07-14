@@ -191,13 +191,13 @@
                    keep up, <a className="text-[#a62122] font-bold">Gonzo</a> Token
                    is here to dominate the pitch and take the crown. The wait is
                    over—<a className="text-[#a62122] font-bold">Gonzo</a> Token is
-                   gearing up for its presale debut, and it's packed with unbeatable
+                   gearing up for its presale debut, and it s packed with unbeatable
                    features: <a className="text-[#f8b447] font-bold">0% taxes</a>, a
-                   renounced contract, and boundless potential for growth. This isn't
-                   just a token; it's a revolution powered by the spirit of{" "}
+                   renounced contract, and boundless potential for growth. This isn t
+                   just a token; it s a revolution powered by the spirit of{" "}
                    <a className="text-[#a62122] font-bold">Gonzo</a> the Dancing
                    Machine. Get ready to feel the power, see the moves, and join the
-                   success story that's about to unfold.{" "}
+                   success story that s about to unfold.{" "}
                    <a className="text-[#a62122] font-bold">Gonzo</a> is here to rise,
                    and the charts will never look the same.{" "}
                    <a className="text-[#f8b447] font-bold">Stay tuned!</a> 🚀

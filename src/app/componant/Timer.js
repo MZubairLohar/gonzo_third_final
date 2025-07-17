@@ -58,7 +58,7 @@ export default function Timer() {
         <div className="min-h-screen grid place-items-center">
             <div className='text-center  text-7xl md:text-8xl lg:text-9xl mt-10 md:-mt-10 lg:-mt-10 font-bold text-[#a62122] opacity-100 -mb-20'>
                 <h1 className="bg-gradient-to-r py-3 from-[#f8b447] to-[#a62122] bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(248,180,71,0.5)] animate-text-float">
-                    Coming soon!!!
+                    Coming soon
                 </h1>
             </div>
             <div className="flex flex-col items-center space-y-6">

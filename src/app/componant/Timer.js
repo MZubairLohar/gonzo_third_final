@@ -28,7 +28,7 @@ import { useEffect } from 'react';
         const seconds = Math.floor((timeLeft / 1000) % 60);
 
         return (
-            <div className=" text-center text-7xl md:text-8xl lg:text-9xl mt-10 md:-mt-10 lg:-mt-10 font-bold text-[#a62122] opacity-100">
+            <div className=" text-center text-7xl md:text-8xl lg:text-9xl -mt-20 md:-mt-10 lg:-mt-10 font-bold text-[#a62122] opacity-100">
                 {days}<a className='text-[#f8b447]'>D</a> {hours}<a className='text-[#f8b447]'>H</a> {minutes}<a className='text-[#f8b447]'>M</a> {seconds}<a className='text-[#f8b447]'>S</a>
             </div>
         );

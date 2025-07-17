@@ -8,7 +8,8 @@ import { useEffect } from 'react';
 // const Navbar = dynamic(() => import('./Navbar'), {
 //   loading: () => <div className="h-16 bg-transparent" />
 // });
-    function CountdownTimer({ targetDate }) {
+    function CountdownTimer() {
+        const targetDate = new Date("2025-07-17").getTime();
         const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
 
         useEffect(() => {
@@ -66,7 +67,7 @@ export default function Timer() {
                 <FrameAnimation className="w-full h-full " />
                 </div>
                 <div>
-                <CountdownTimer targetDate={Date.now() + 10 * 24 * 60 * 60 * 1000} />
+                <CountdownTimer  />
                 </div>
             </div>
         </div>

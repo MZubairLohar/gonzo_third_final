@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 //   loading: () => <div className="h-16 bg-transparent" />
 // });
     function CountdownTimer() {
-        const targetDate = new Date("2025-07-17").getTime();
+        const targetDate = new Date("2025-07-27").getTime();
         const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
 
         useEffect(() => {

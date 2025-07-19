@@ -23,16 +23,16 @@ export default function CustomCursor() {
   }, []);
 
   return (
-    <div className="fixed pointer-events-none z-50" 
+    <div className="fixed pointer-events-none z-50 ml-7 mt-7" 
          style={{
            left: `${position.x}px`,
            top: `${position.y}px`,
            transform: 'translate(-50%, -50%)'
          }}>
       <img 
-        src={isPointer ? '/cursor.png' : '/cursor.png'}
+        src={isPointer ? '/cursor2.png' : '/cursor2.png'}
         alt=""
-        className="w-32 h-20"
+        className="w-20 h-20"
       />
     </div>
   );
